@@ -236,4 +236,9 @@ a {
     .iconStyle {
         transition: none;
     }
+    .selectionBar {
+        display: grid;
+        grid-template-columns: repeat(2, min-content);
+        gap: 30px;
+    }
 }
