@@ -83,7 +83,7 @@ a {
 }
 .selectionBar {
     display: grid;
-    grid-template-columns: repeat(4, min-content);
+    grid-template-columns: repeat(3, min-content);
     gap: 30px;
 }
 .selectionBar2 {
@@ -138,13 +138,13 @@ a {
     left: 75px;
 } 
 .txtWhite3 {
-    left: 72px;
+    left: 87px;
 } 
 .txtWhite4 {
     left: 82px;
 } 
 .txtWhite5 {
-    left: 68px;
+    left: 69px;
 } 
 .txtWhite6 {
     left: 75px;
