@@ -83,7 +83,7 @@ a {
 }
 .selectionBar {
     display: grid;
-    grid-template-columns: repeat(3, min-content);
+    grid-template-columns: repeat(4, min-content);
     gap: 30px;
 }
 .selectionBar2 {
@@ -235,5 +235,21 @@ a {
     }
     .iconStyle {
         transition: none;
+    }
+    .selectionBar {
+        grid-template-columns: repeat(2, min-content);
+    }
+    .selectionBar2 {
+        grid-template-columns: repeat(2, min-content);
+    }
+    .iconStyle {
+        width: 40px;
+    }
+    .selection {
+        width: 75px;
+        height: 75px;
+    }
+    .txtTitle {
+        margin-bottom: 25px;
     }
 }
